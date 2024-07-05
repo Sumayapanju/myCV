@@ -26,7 +26,7 @@ header {
 }
 
 .heading {
-    margin-left 50px;
+    margin-left: 50px;
 }
 
 .logo {
@@ -46,6 +46,7 @@ header {
     font-size: 46px;
     margin-top: 50px;
     color: white;
+    padding-left: 10px;
 }
 
 .title {
@@ -55,6 +56,7 @@ header {
     margin-top: 20px;
     margin-bottom: 90px;
     color: white;
+    padding-left: 10px;
 }
 .list-inline-item:not(:last-child){
     margin:0;
@@ -67,6 +69,10 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 .menuitem {
@@ -97,4 +103,9 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+/*-----------------------------------------------------------------------hover*/
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
