@@ -25,7 +25,7 @@
     background-color: white;
 }
 /*------------------------------------------------------------------special margin/paddings*/
-h1, h2, h3, h4, {
+h1, h2, h3, h4 {
     margin: 0; 
 }
 
@@ -245,4 +245,32 @@ footer {
     position: relative;
     width: 60%;
 
+}
+
+/* ----------------------------------------Skills */
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type{
+    position: absolute;
+    margin-left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+.progress-type-p {
+    margin-top: 10px;
+    margin-left: 50%;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
 }
